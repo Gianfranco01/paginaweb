@@ -1,0 +1,187 @@
+.formulario{
+    text-align: center;
+}
+
+
+
+
+
+html{
+    height: 100%;
+}
+
+
+
+.a{
+    text-align: center;
+    color: #050505;
+}
+
+.link{
+    color: rgb(36, 3, 201);
+    text-decoration: none;
+}
+*   {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*fondo*/
+body{
+   
+    font-family: sans-serif;
+    padding: 90px 20px 50px;
+    background-color: rgba(251, 251, 251, 0.226);
+    background-image: url(https://c.tenor.com/-XdBRsbl-7IAAAAM/elmo.gif);
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 50px;
+   
+}
+/*encabezado de pagina*/
+.header{
+    background-color: rgb(38, 42, 46);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0; 
+}
+
+/*left o rigth*/
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*lineadebajo de login*/
+.nav-linke{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+/* br de los tres*/
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+/* separacion*/
+.nav-menu-item  {
+    font-size: 18px;
+    margin: 0 20px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.formulario{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30 px;
+  padding: 15px;
+  margin: 15px;
+  text-align: left;
+  padding-left: 600px;
+  
+  
+}
+h1{
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: darkblue;
+  
+}
+
+
+
+
+
+
+
+
+
+
+ /*fondo del pie de pagina*/
+.pie-pagina{
+    width: 100%;
+    background-image:linear-gradient(
+        0deg,
+        rgba(7, 0, 0, 0.281),
+        rgba(7, 1, 1, 0.5)
+        ) 
+    ,url("/IMAGENES/somo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+  /*La estrucutura de pie de pagina*/
+  .pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+  }
+
+
+
+
+  /*sobre nosotros - siguenos*/
+  .pie-pagina .grupo-1 .box h2{
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 40px;
+  }
+/*sms compañia*/
+  .pie-pagina .grupo-1 .box p{
+    color: #fefefe;
+    margin-bottom: 10px;
+  }
+
+
+ /*casita*/
+  .pie-pagina .grupo-1 .red-social a{
+    display:inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #070707;
+    margin-right: 10px;
+    background-color:rgb(68, 119, 196);
+    text-align: center;
+    transition: all 300ms ease;
+  }
+
+
+  /*color de logo al dar click*/
+  .pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(255, 255, 255);
+  }
+
+  /*color de letras en derechos de autor*/
+  .pie-pagina .grupo-2{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ) 
+    ,url("/IMAGENES/somo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 15px 10px;
+    text-align: center;
+    color: #000000;
+    
+  }
+
